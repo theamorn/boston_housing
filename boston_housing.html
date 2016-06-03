@@ -574,7 +574,7 @@ Ensure that you have executed the code block once you are done. You'll know the 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>boston housing count as regression because we have a data which is continuous so we're going to use regression for analyzing, which MSE and MAE. Between MSE and MAE, I pick MSE will be more accurate if you consider that MAE will be cancel out positive value and negative value while MSE will be only positive values</p>
+<p>boston housing count as regression because we have a data which is continuous so we're going to use regression for analyzing, which MSE and MAE. Between MSE and MAE, I pick because MSE will be focus on giving more weight to points where further away from the mean which is make sense in most cases for checking the error while MAE are considered giving less weight when compare to MSE</p>
 
 </div>
 </div>
@@ -1895,7 +1895,7 @@ EARBEAQlxE1yEARBEARBEJQQN8lBEARBEARBUMLfHtQ6q3UYrSoAAAAASUVORK5CYII=
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Max-depth of 6. As the size of training set increases, the training error is increasely slowly while testing error decrease slowly. We can describe the data in two phase. First phase is the underfit data, when the data size is not enough for training. High biased or underfit data will be show as first phase</p>
+<p>I choose Max-depth of 6. As the size of training set increases, testing error are decreased slowly because of there are more data for training and resolved high biased of data. Training error will be slowly increase because of the model won't be able to fit all the training data that increase over time. We can describe the data in two phase. First phase is the underfited data, when the data size is not enough for training, the error rate of testing will be high because the system don't have enough data to learn. In the meanwhile, the more data is in the training set, the system can train and get more precision.</p>
 
 </div>
 </div>
